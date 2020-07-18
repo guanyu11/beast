@@ -30,7 +30,6 @@ export default{
             
         },
         handleCityId(state,id){
-            console.log(id)
             state.apiData.cityId=id;
         },
         handleBrandId(state,id){
@@ -44,7 +43,6 @@ export default{
                 method:"get",
                 url:api.stores.storescity,
             })
-            console.log(data,"getstoresCity")
             commit("getCityData",data.data);
             
             dispatch("getstoresPage")
@@ -56,7 +54,6 @@ export default{
                 url:api.stores.storespage,
                 data:state.apiData,
             })
-            console.log(data,"getstoresPage")
             commit("getStoresData",data.data)
 
         },
