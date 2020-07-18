@@ -7,7 +7,8 @@ import VueLazyLoad from "vue-lazyload"
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+// 删除打印
+window.console.log=null
 Vue.config.productionTip = false
 Vue.use(VueLazyLoad,{
   preLoad: 1.1,
