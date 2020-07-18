@@ -1,0 +1,70 @@
+.hot_search {
+  background: #fff;
+  padding: 0.4rem 0.2rem;
+}
+.hot_search > div:nth-child(1) {
+  // color: #878787;
+  font-weight: 600;
+  font-size: 0.3rem;
+}
+
+.hot_search > div:nth-child(2) ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hot_search > div:nth-child(2) ul li {
+  padding: 0.14rem 0.16rem;
+  background: #f1f1f1;
+  margin-top: 0.2rem;
+  margin-left: 0.08rem;
+  margin-right: 0.08rem;
+  font-size: 0.26rem;
+}
+#hisAndHot{
+  padding-top: .92rem;
+}
+/* clear_search */
+.clear_search {
+  padding: 0.2rem 0.2rem;
+  background: #fff;
+}
+.clear_search > div:nth-child(1) {
+  font-size: 0.28rem;
+  // color: #878787;
+}
+.clear_search > div:nth-child(2) ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.clear_search > div:nth-child(2) ul li {
+  padding: 0.14rem 0.16rem;
+  background: #f1f1f1;
+  margin-top: 0.2rem;
+  margin-left: 0.08rem;
+  margin-right: 0.08rem;
+  font-size: 0.26rem;
+}
+.history-con{
+  // width: 100%;
+  padding-right: .3rem;
+  span{
+    font-weight: 600;
+  }
+  i{
+    float: right;
+  }
+}
+.clear_search > div:nth-child(3) {
+  width: 3.32rem;
+  height: 0.82rem;
+  border: 0.01rem solid #f1f1f1;
+  text-align: center;
+  line-height: 0.82rem;
+  transform: translateX(50%);
+  margin-top: 0.8rem;
+  color: #000;
+
+}
+.search_pages{
+    position: relative;
+}

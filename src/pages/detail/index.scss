@@ -1,0 +1,117 @@
+#detail{
+
+    padding-bottom:1.28rem ;
+    .goto{
+        position: absolute;
+        top: .2rem;
+        left: .2rem;
+        z-index: 99;
+        font-size: .5rem;
+        font-weight: 100;
+    }
+}
+
+#detailBanner{
+    width: 7.5rem;
+    height:7.82rem;
+    margin-bottom: .48rem;
+    img{
+        width: 7.5rem;
+        height:7.82rem;  
+    }
+}
+.detail-info{
+    margin: 0 .4rem .48rem;
+    // .brand{
+
+    // }
+    .price{
+        font-size: .4rem;
+        font-weight: 700;
+    }
+    .name{
+font-size: .4rem;
+font-weight: 700;
+    }
+    .warn{
+        color:#c62222 
+    }
+
+}
+
+.goodLabels{
+    padding: .1rem .4rem 0;
+.goodLabels-item{
+        height: 1.12rem;
+        line-height: 1.12rem;
+        border-bottom: 1px solid #ccc;
+    .labelType{
+        background-color: #000;
+        color: #fff;
+    }
+    .labelSummary{
+        margin-left: .26rem;
+    }
+    i{
+        float: right;
+ 
+    }  
+}
+  
+
+}
+
+.middle{
+        
+      .detail-des-tab{
+        margin: 1.2rem .4rem .12rem;
+           font-size: .4rem; 
+           font-weight: 700;
+           color:#dd4f14
+        }
+    .detail-des-box{
+        padding: 0 .3rem;
+        // padding-bottom: .36rem;s
+
+    }
+    .detail-des-title{
+        padding-top: .36rem;
+        font-size: .3rem;
+        width: 100%;
+
+        i{
+            float:right ;
+        }
+    }
+    .detail-des-img{
+      img{
+     width:100%;
+
+      }
+
+    }
+   
+    .detail-des-item{
+        width: 100%;
+        overflow: hidden;
+       
+        .detail-des-text{
+        padding: 0 .3rem ;
+        font-size: .24rem;
+        line-height: 1.9;
+        color:#2b2b2b
+        // background-color: red;
+
+        }
+        .detail-des-text:nth-of-type(1){
+        // background-color: pink;
+        padding-top: .36rem;
+
+            // margin-bottom:.36rem;
+        }
+        border-bottom: 1px solid #ccc;
+        padding-bottom: .36rem;
+
+
+    }
+}

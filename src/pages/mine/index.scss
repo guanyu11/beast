@@ -1,0 +1,36 @@
+#my-content{
+    padding:.5rem;
+.level{
+    // margin-top: .32rem;
+    font-size: .3rem;
+    color: #444;
+
+}
+    .anylink{
+
+        font-size: .4rem;
+        font-weight: 700;
+        p{
+            display: block;
+            height: .88rem;
+            line-height: .88rem;
+            i{
+                color: #dd4f14;
+                text-decoration: none;
+                font-style: normal;
+            }
+        }
+    }
+    .anyinfo{
+        margin-top: .32rem;
+        font-size: .3rem;
+        color: #444;
+        p{
+            display: block;
+            height: .68rem;
+            line-height: .68rem;
+        }
+        // font-weight: 700;
+    }
+    
+}

@@ -1,0 +1,121 @@
+//购物车页面 头部
+.cart-head{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    top:0;
+    padding-left: .2rem;
+    height: 1.16rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+   
+    .allChoose{
+        font-size: .4rem;
+        font-weight: 700;
+        margin-left: .2rem;
+        margin-right: .3rem;
+    }
+
+    .free-mail{
+        display: flex;
+        align-items: center;
+        img{
+            height: .3rem;
+            width: .3rem;
+            margin-right: .1rem;
+        }
+        span{
+        font-size: .3rem;
+
+        }
+    }
+}
+
+//购物车商品
+.goodCon{
+    margin-top: 1.16rem;
+    margin-bottom: 1.28rem;
+
+    .goodCon-item{
+    padding-left: .2rem;
+    position: relative;
+
+    width: 100%;
+    height: 2.26rem;
+    border-bottom: 1px solid #ccc;  
+    display: flex;
+    align-items: center;
+    img{
+        margin-left: .3rem;
+        margin-right: .3rem;
+        width:1.7rem ;
+        height: 1.78rem;
+        background-color: pink;
+    }
+    .info{
+        width: 4rem;
+        height:100%;
+        padding-top: .2rem;
+        .price{
+            position: absolute;
+            bottom: .2rem; 
+        }
+    }
+    
+    .num{
+        position: absolute;
+        right: .3rem;
+        bottom:.2rem;
+    }
+    }
+
+    .delete{
+        height:100%
+        // align-self: center;
+    }
+}
+
+
+//购物车 底部
+.cart-foot{
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    height: 1.28rem;
+    padding-top: .2rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 7.5rem;
+    .total{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: .2rem;
+        .totalPri{
+            font-size: .28rem;
+            font-weight: 700;
+        }
+        .freePri{
+            color: #ccc;
+        }
+
+    }
+    .account{
+        margin-right:.2rem ;
+        margin-left:.2rem ;
+        width: 2.36rem;
+        height: .88rem;
+        background-color:#ccc ;
+        color: #fff;
+        line-height: .88rem;
+        text-align: center;
+        font-size: .32rem;
+    }
+    #canCount{
+        background-color:#000 ;
+
+    }
+}
+

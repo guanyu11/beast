@@ -1,0 +1,115 @@
+
+// #goodlist{
+//     // height: 100%;
+//     // height:11.62rem;
+//     // overflow: hidden;
+// }
+.goodList-con{
+    margin-top: 1.72rem;
+    // height: 100%;
+    height:11.62rem;
+    overflow: hidden;
+}
+
+.product-list{
+    font-size: .24rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+.product-item{
+    width: 3.73rem;
+    height:5.22rem;
+    margin-bottom: .68rem;
+    margin-right: .02rem;
+    img{
+      width: 100%;
+      height: 3.9rem;
+      margin-bottom: .14rem;  
+    }
+    .product-info{
+        width: 100%;
+        overflow: hidden;
+        padding-left: .3rem;
+        .activityDesc{
+           color: #c44747; 
+        }
+        p{
+            // display: block;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        span{
+            display: inline-block;
+        }
+        .product-price{
+            padding-top: .12rem;
+            .rawPrice{
+                margin-left: .08rem;
+            } 
+            .price{
+                font-size: .3rem;
+                font-weight: 700;
+            }
+            .stockWarn{
+               color: #c44747; 
+               margin-left: .12rem;
+    
+            }
+        }
+        
+
+    }
+}
+.no-margin{
+    margin-right: 0;
+}
+
+
+}
+
+
+//综合 新品 价格 拍序
+.list-sort{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index:10;
+   justify-content: space-around;
+    top: .92rem;
+    background-color: #fff;
+    padding-top:.12rem;
+    .headnav{
+    //    background-color: pink;
+       height: .72rem;
+       line-height:.72rem ;
+       .active{
+           color:#dd4f14;
+       }
+    }
+    #sort-price{
+        display: flex;
+        align-items: center;
+
+        div{
+        display: flex;
+        flex-direction: column;
+        i{
+            line-height: .2rem;
+            color: #888;
+        }
+        #activeIcon{
+            color:#000;
+        }
+
+        }
+    }
+
+
+}
+.scroll-con{
+    // height: 100%;
+    
+    // height:11.62rem;
+    // overflow: hidden;
+}
+
