@@ -8,6 +8,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+window.console.log=null
 Vue.config.productionTip = false
 Vue.use(VueLazyLoad,{
   preLoad: 1.1,
