@@ -56,7 +56,7 @@ export default{
                 url:api.stores.storespage,
                 data:state.apiData,
             })
-            console.log(data,"getstoresPage")
+            // 查看 getstoresPage 的data是否正确
             commit("getStoresData",data.data)
 
         },
