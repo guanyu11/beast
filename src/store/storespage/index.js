@@ -54,6 +54,10 @@ export default{
                 url:api.stores.storespage,
                 data:state.apiData,
             })
+<<<<<<< HEAD
+=======
+            // 查看 getstoresPage 的data是否正确
+>>>>>>> master
             commit("getStoresData",data.data)
 
         },
